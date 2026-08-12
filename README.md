@@ -1,4 +1,4 @@
-# Training Performance and Trainee Behavior Analysis Platform
+# Training Courses Platform
 
 A full-stack web-based training management platform designed to manage training courses, monitor trainee progress, and analyze course performance and withdrawal behavior.
 
