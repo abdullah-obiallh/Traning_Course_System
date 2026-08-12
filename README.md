@@ -87,7 +87,7 @@ The registration page allows new users to create an account and provide their ba
 
 The available courses page allows students to browse and explore the training courses available on the platform.
 
-![Available Courses](ScreenShots/Available_Course_Page.png)
+![Available Courses](ScreenShots/Avalable_Course_Page.png)
 
 ### My Courses
 
@@ -143,7 +143,7 @@ The users management page allows administrators to view registered users, activa
 
 The withdrawal analysis page allows administrators to review withdrawal information and analyze the reasons selected by trainees when leaving courses.
 
-![Withdrawal Analysis](ScreenShots/Admin_withdrawls_Selected_Course_navbar.png)
+![Withdrawal Analysis](ScreenShots/Admin_withdrwals_Selected_Course_navbar.png)
 
 ## System Architecture
 
