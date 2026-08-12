@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="trainingcoursessystem.client/trainingcoursessystem.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="TrainingCoursesSystem.Server/TrainingCoursesSystem.Server.csproj" />
+</Solution>

@@ -1,0 +1,13 @@
+@TrainingCoursesSystem.Server_HostAddress = https://localhost:7177
+
+### Check backend and database status
+GET {{TrainingCoursesSystem.Server_HostAddress}}/api/system/status
+Accept: application/json
+
+### Quick database test
+GET {{TrainingCoursesSystem.Server_HostAddress}}/api/test/db
+Accept: application/json
+
+### Public course list
+GET {{TrainingCoursesSystem.Server_HostAddress}}/api/courses
+Accept: application/json

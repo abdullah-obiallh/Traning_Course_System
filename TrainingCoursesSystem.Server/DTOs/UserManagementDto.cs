@@ -1,0 +1,17 @@
+﻿namespace TrainingCoursesSystem.Server.DTOs
+{
+    public class UserManagementDto
+    {
+        public int UserId { get; set; }
+
+        public string FullName { get; set; } = string.Empty;
+
+        public string Email { get; set; } = string.Empty;
+
+        public string UserRole { get; set; } = string.Empty;
+
+        public bool IsActive { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+    }
+}
