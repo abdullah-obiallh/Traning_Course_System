@@ -65,6 +65,74 @@ The platform allows trainees to enroll in courses, complete lessons, monitor the
 | Instructor | Manage assigned courses and lessons, monitor trainee progress             |
 | Admin      | Manage users and courses, assign instructors, analyze platform statistics |
 
+## Screenshots
+
+### Login Page
+
+The login page allows users to securely access the platform using their registered credentials.
+
+![Login Page](Screenshots/loginPage.png)
+
+### Registration Page
+
+The registration page allows new users to create an account and provide their basic information.
+
+![Registration Page](Screenshots/Register_page.png)
+
+### Available Courses
+
+The available courses page allows students to browse and view the training courses available on the platform.
+
+![Available Courses](Screenshots/Available_Course_Page.png)
+
+### My Courses
+
+The My Courses page displays the courses in which the student is currently enrolled and provides access to their learning progress.
+
+![My Courses](Screenshots/My_Course_Page.png)
+
+### Admin Dashboard
+
+The admin dashboard provides an overview of the platform through statistics related to courses, users, enrollments, completion, and withdrawal activity.
+
+![Admin Dashboard](Screenshots/Admin_Dashboard_statistic_page.png)
+
+### Admin Course Management
+
+The course management page allows administrators to add and manage training courses, assign instructors, and control course information.
+
+![Admin Course Management](Screenshots/Admin_Course_Manage_Page_or_Add.png)
+
+### Admin Users Management
+
+The users management page allows administrators to view registered users, activate or deactivate accounts, and manage user roles.
+
+![Admin Users Management](Screenshots/Admin_All_Users_Page.png)
+
+### Withdrawal Analysis
+
+The withdrawal analysis page allows administrators to review withdrawal information and analyze the reasons selected by trainees when leaving courses.
+
+![Withdrawal Analysis](Screenshots/Admin_withdrawls_Selected_Course_navbar.png)
+
+### Instructor Panel
+
+The instructor panel provides access to the instructor's assigned courses and the main course management functions.
+
+![Instructor Panel](Screenshots/Teacher_Panel_Page.png)
+
+### Instructor Student Progress
+
+The student progress page allows instructors to monitor trainee enrollment status, completed lessons, and overall course progress.
+
+![Instructor Student Progress](Screenshots/Teacher_View_Student_Page.png)
+
+### Instructor Lesson Management
+
+The lesson management page allows instructors to add, update, and manage lessons within their assigned courses.
+
+![Instructor Lesson Management](Screenshots/Teacher_Manage_Lessons_Page.png)
+
 ## System Architecture
 
 The application follows a three-layer web application structure:
@@ -92,7 +160,6 @@ The application follows a three-layer web application structure:
 │ Withdrawal Reasons          │
 └─────────────────────────────┘
 ```
-
 The React frontend is responsible for the user interface and communication with the backend through REST API endpoints.
 
 The ASP.NET Core backend handles requests, validates data, applies business rules, and communicates with the database through Entity Framework Core.
