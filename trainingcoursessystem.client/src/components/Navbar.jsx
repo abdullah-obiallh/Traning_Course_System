@@ -51,8 +51,8 @@ function Navbar() {
                 ) : (
                     <>
                         <Link to="/login">Login</Link>
-                        <Link to="/register" className="btn btn-primary">
-                            Register
+                            <Link style={{ color: "white" }} to="/register"  className="btn btn-primary">
+                                Register
                         </Link>
                     </>
                 )}
