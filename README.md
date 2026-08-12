@@ -69,7 +69,7 @@ The platform allows trainees to enroll in courses, complete lessons, monitor the
 
 ### Login Page
 
-The login page allows users to securely access the platform using their registered credentials.
+The login page allows users to access the platform using their registered credentials.
 
 ![Login Page](ScreenShots/loginPage.png)
 
@@ -79,17 +79,47 @@ The registration page allows new users to create an account and provide their ba
 
 ![Registration Page](ScreenShots/Register_page.png)
 
+---
+
+## Student Interface
+
 ### Available Courses
 
-The available courses page allows students to browse and view the training courses available on the platform.
+The available courses page allows students to browse and explore the training courses available on the platform.
 
 ![Available Courses](ScreenShots/Available_Course_Page.png)
 
 ### My Courses
 
-The My Courses page displays the courses in which the student is currently enrolled and provides access to their learning progress.
+The My Courses page displays the courses in which the student is enrolled and allows the student to monitor their learning progress.
 
 ![My Courses](ScreenShots/My_Course_Page.png)
+
+---
+
+## Instructor Interface
+
+### Instructor Panel
+
+The instructor panel provides access to assigned courses and the main course management functions.
+
+![Instructor Panel](ScreenShots/Teacher_Panel_Page.png)
+
+### Student Progress
+
+The student progress page allows instructors to monitor trainee enrollment status, completed lessons, and overall course progress.
+
+![Student Progress](ScreenShots/Teacher_View_Student_Page.png)
+
+### Lesson Management
+
+The lesson management page allows instructors to add, update, delete, and organize lessons within their assigned courses.
+
+![Lesson Management](ScreenShots/Teacher_Manage_Lessons_Page.png)
+
+---
+
+## Administrator Interface
 
 ### Admin Dashboard
 
@@ -97,41 +127,23 @@ The admin dashboard provides an overview of the platform through statistics rela
 
 ![Admin Dashboard](ScreenShots/Admin_Dashboard_statistic_page.png)
 
-### Admin Course Management
+### Course Management
 
-The course management page allows administrators to add and manage training courses, assign instructors, and control course information.
+The course management page allows administrators to create and manage training courses, assign instructors, and control course information.
 
-![Admin Course Management](ScreenShots/Admin_Course_Manage_Page_or_Add.png)
+![Course Management](ScreenShots/Admin_Course_Manage_Or_Add_Page.png)
 
-### Admin Users Management
+### Users Management
 
 The users management page allows administrators to view registered users, activate or deactivate accounts, and manage user roles.
 
-![Admin Users Management](ScreenShots/Admin_All_Users_Page.png)
+![Users Management](ScreenShots/Admin_All_Users_Page.png)
 
 ### Withdrawal Analysis
 
 The withdrawal analysis page allows administrators to review withdrawal information and analyze the reasons selected by trainees when leaving courses.
 
 ![Withdrawal Analysis](ScreenShots/Admin_withdrawls_Selected_Course_navbar.png)
-
-### Instructor Panel
-
-The instructor panel provides access to the instructor's assigned courses and the main course management functions.
-
-![Instructor Panel](ScreenShots/Teacher_Panel_Page.png)
-
-### Instructor Student Progress
-
-The student progress page allows instructors to monitor trainee enrollment status, completed lessons, and overall course progress.
-
-![Instructor Student Progress](ScreenShots/Teacher_View_Student_Page.png)
-
-### Instructor Lesson Management
-
-The lesson management page allows instructors to add, update, and manage lessons within their assigned courses.
-
-![Instructor Lesson Management](ScreenShots/Teacher_Manage_Lessons_Page.png)
 
 ## System Architecture
 
